@@ -58,7 +58,7 @@ function mousePressed(){
     console.log("Regenerado");
     redraw();
   }else if(mouseX > 225 && mouseX < 375 && mouseY > 25 && mouseY < 75){
-    //exportar(grafo);
+    exportar(grafo);
     console.log("Exportado");
   }
 }
